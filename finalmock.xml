@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="com.crm.Listeners.DemoListners"></listener></listeners>
+<listeners><listener class-name="com.crm.Listeners.VitigerListners"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.TestCase.Testcaseno8"/>
+      <class name="com.crm.TestCase.TestCaseNo1"/>
+      <class name="com.crm.TestCase.TestcaseNo6"/>
+      <class name="com.crm.TestCase.Task5_RemoveHighestPriceProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

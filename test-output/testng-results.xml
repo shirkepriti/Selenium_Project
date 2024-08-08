@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[contactcreate is Started !]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[testCase1 is Started !]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[createOrganization is Started !]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[highestPrice is Started !]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-08T17:36:26 IST" name="Suite" finished-at="2024-08-08T17:37:58 IST" duration-ms="91933">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T17:36:26 IST" name="Test" finished-at="2024-08-08T17:37:58 IST" duration-ms="91933">
+      <class name="com.crm.TestCase.Task5_RemoveHighestPriceProduct">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:com.crm.TestCase.Task5_RemoveHighestPriceProduct@cb0755b]" started-at="2024-08-08T17:37:40 IST" name="preConditions" finished-at="2024-08-08T17:37:45 IST" duration-ms="5660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.TestCase.Task5_RemoveHighestPriceProduct@cb0755b]" started-at="2024-08-08T17:37:45 IST" name="login" finished-at="2024-08-08T17:37:48 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="highestPrice()[pri:0, instance:com.crm.TestCase.Task5_RemoveHighestPriceProduct@cb0755b]" started-at="2024-08-08T17:37:48 IST" name="highestPrice" finished-at="2024-08-08T17:37:58 IST" duration-ms="9825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[highestPrice is Started !]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- highestPrice -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.TestCase.Task5_RemoveHighestPriceProduct@cb0755b]" started-at="2024-08-08T17:37:58 IST" name="logout" finished-at="2024-08-08T17:37:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.TestCase.Task5_RemoveHighestPriceProduct@cb0755b]" started-at="2024-08-08T17:37:58 IST" name="postCondition" finished-at="2024-08-08T17:37:58 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.crm.TestCase.Task5_RemoveHighestPriceProduct -->
+      <class name="com.crm.TestCase.Testcaseno8">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.crm.TestCase.Testcaseno8@1cf6d1be]" started-at="2024-08-08T17:36:27 IST" name="preCondition" finished-at="2024-08-08T17:36:38 IST" duration-ms="11359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.TestCase.Testcaseno8@1cf6d1be]" started-at="2024-08-08T17:36:38 IST" name="login" finished-at="2024-08-08T17:36:42 IST" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="contactcreate()[pri:0, instance:com.crm.TestCase.Testcaseno8@1cf6d1be]" started-at="2024-08-08T17:36:42 IST" name="contactcreate" finished-at="2024-08-08T17:36:58 IST" duration-ms="15810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[contactcreate is Started !]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactcreate -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.TestCase.Testcaseno8@1cf6d1be]" started-at="2024-08-08T17:36:58 IST" name="logout" finished-at="2024-08-08T17:37:00 IST" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.TestCase.Testcaseno8@1cf6d1be]" started-at="2024-08-08T17:37:00 IST" name="postCondition" finished-at="2024-08-08T17:37:01 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.crm.TestCase.Testcaseno8 -->
+      <class name="com.crm.TestCase.TestCaseNo1">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:com.crm.TestCase.TestCaseNo1@4b013c76]" started-at="2024-08-08T17:37:01 IST" name="preConditions" finished-at="2024-08-08T17:37:09 IST" duration-ms="7981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.TestCase.TestCaseNo1@4b013c76]" started-at="2024-08-08T17:37:09 IST" name="login" finished-at="2024-08-08T17:37:12 IST" duration-ms="3166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCase1()[pri:0, instance:com.crm.TestCase.TestCaseNo1@4b013c76]" started-at="2024-08-08T17:37:12 IST" name="testCase1" finished-at="2024-08-08T17:37:18 IST" duration-ms="6599" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testCase1 is Started !]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.TestCase.TestCaseNo1@4b013c76]" started-at="2024-08-08T17:37:18 IST" name="logout" finished-at="2024-08-08T17:37:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.TestCase.TestCaseNo1@4b013c76]" started-at="2024-08-08T17:37:18 IST" name="postCondition" finished-at="2024-08-08T17:37:19 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.crm.TestCase.TestCaseNo1 -->
+      <class name="com.crm.TestCase.TestcaseNo6">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.crm.TestCase.TestcaseNo6@53fb3dab]" started-at="2024-08-08T17:37:19 IST" name="preCondition" finished-at="2024-08-08T17:37:22 IST" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.TestCase.TestcaseNo6@53fb3dab]" started-at="2024-08-08T17:37:22 IST" name="login" finished-at="2024-08-08T17:37:26 IST" duration-ms="3769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganization()[pri:0, instance:com.crm.TestCase.TestcaseNo6@53fb3dab]" started-at="2024-08-08T17:37:26 IST" name="createOrganization" finished-at="2024-08-08T17:37:38 IST" duration-ms="12149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrganization is Started !]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.TestCase.TestcaseNo6@53fb3dab]" started-at="2024-08-08T17:37:38 IST" name="logout" finished-at="2024-08-08T17:37:39 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.TestCase.TestcaseNo6@53fb3dab]" started-at="2024-08-08T17:37:39 IST" name="postCondition" finished-at="2024-08-08T17:37:40 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.crm.TestCase.TestcaseNo6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
